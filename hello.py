@@ -1,4 +1,4 @@
-# merhaba
+# merhaba new repo
 def toyou(x):
     return "hi %s" % x
 
