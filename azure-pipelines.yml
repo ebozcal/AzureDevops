@@ -8,7 +8,7 @@ trigger:
 
 pool: 'myAgentPool'
 variables:
-  azureServiceConnectionId: 'mySC'
+  azureServiceConnectionId: 'myServiceConnection'
   webAppName: 'mywebapp228661'
 
 stages:
