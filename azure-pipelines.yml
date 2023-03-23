@@ -7,9 +7,11 @@ trigger:
 - main
 
 pool: 'myAgentPool'
+
 variables:
   azureServiceConnectionId: 'myServiceConnection'
   webAppName: 'mywebapp228661'
+  environmentName : 'AzureDevops'
 
 stages:
 - stage: Build
