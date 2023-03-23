@@ -10,7 +10,7 @@ pool: 'myAgentPool'
 
 variables:
   azureServiceConnectionId: 'myServiceConnection'
-  webAppName: 'mywebapp228661'
+  webAppName: 'ertwebapp'
   environmentName : 'AzureDevops'
 
 stages:
