@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+echo "Merhaba Ertugrul"
 PORT=443
 echo "Port: $PORT"
 
