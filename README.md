@@ -1,7 +1,6 @@
 # Overview
-
-<TODO: complete this with an overview of your project>
-
+This project demonstrate the implementation of Continious Integation and Continious Delivery pipelines step by step by using a Python-based machine learning application and the Flask web framework in Github, Azure Portal and Azure DevOps platforms. 
+After creating a Github Repository called AzureDevops, first Github Actions is used along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle to create Continuous Delivery.  Then this project was integrated with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 ## Project Plan
 <TODO: Project Plan
 
@@ -13,8 +12,23 @@
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+<TODO:  Instructions for running the Python project. 
 
+1. Create an [Azure Account](https://portal.azure.com) 
+2. Install the [Azure command line interface](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+3. Fork this repo to your GitHub account 
+4. Clone this repository to your Azure CLI
+5. Create ssh keys in Azure Cloud Shell and upload it to your GitHub account
+6. For continuous integration, set up GitHub action as a build server—a centralized machine that is dedicated to continuously building the project every time code is committed to it set up a work flow 
+7. Set up Azure DevOps Pipeline Agent (a virtual machine) to perform the pipeline jobs, such as building your code residing in Github and deploying it to the Azure services. To od this:
+  - Create a Personal Access Token (PAT)
+  - Create an Agent pool
+  - Create a Linux VM
+  - Configure the Linux VM as an Azure DevOps Build Agent
+  - Install Application-specific depedencies
+8. Set up a Service connection ensure via Azure Resource Manager and Service principal to connect your DevOps account with the Azure account.
+9. Create a Web App Manually and initially deploy your app in Cloud Shell. Verify the deployed application works by browsing to the deployed URL. Go to https://<Your_unique_app_name>.azurewebsites.net/.
+10. Create a Pipeline
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
