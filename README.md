@@ -28,7 +28,10 @@ After creating a Github Repository called AzureDevops, first Github Actions is u
   - Install Application-specific depedencies
 8. Set up a Service connection ensure via Azure Resource Manager and Service principal to connect your DevOps account with the Azure account.
 9. Create a Web App Manually and initially deploy your app in Cloud Shell. Verify the deployed application works by browsing to the deployed URL. Go to https://<Your_unique_app_name>.azurewebsites.net/.
-10. Create a Pipeline
+10. Deploy an application using Azure Pipelines into Azure App Services. For this, create a Pipeline and Edit the YAML file to build and deploy the app service succesufuly
+11. Test an application inside of Azure Pipelines
+
+
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
