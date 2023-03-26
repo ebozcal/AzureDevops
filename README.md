@@ -59,7 +59,7 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+You can extend this project by using different app rather than ML app and you can try different platforms todo this kind of CI/CD project rather than GitHub and azure paltforms
 
 ## Demo 
 
